@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Hub",
+            "type": "shell",
+            "command": "lune",
+            "args": ["run", "pipeline/build.luau", "pipeline/.pcmp.json", "Hub"],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Degraded",
+            "type": "shell",
+            "command": "lune",
+            "args": ["run", "pipeline/build.luau", "pipeline/.pcmp.json", "Degraded"],
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Degraded Debug",
+            "type": "shell",
+            "command": "lune",
+            "args": ["run", "pipeline/build.luau", "pipeline/.pcmp.json", "DegradedDebug"],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Voxel Wars",
+            "type": "shell",
+            "command": "lune",
+            "args": ["run", "pipeline/build.luau", "pipeline/.pcmp.json", "VoxelWars"],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Build BRM5",
+            "type": "shell",
+            "command": "lune",
+            "args": ["run", "pipeline/build.luau", "pipeline/.pcmp.json", "BRM5"],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

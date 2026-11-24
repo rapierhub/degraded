@@ -1,0 +1,53 @@
+{
+    "buildConfigs": [
+        {
+            "name": "Hub",
+            "frame": "pipeline/frame.luau",
+            "darkluaConfig": "pipeline/.darklua.json",
+            "input": "src/hub.luau",
+            "output": "dist/hub.luau"
+        },
+        {
+            "name": "Degraded",
+            "frame": "pipeline/frame.luau",
+            "darkluaConfig": "pipeline/.darklua.json",
+            "input": "src/games/degraded/main.luau",
+            "output": "dist/degraded.luau"
+        },
+        {
+            "name": "DegradedDebug",
+            "frame": "pipeline/frame.luau",
+            "darkluaConfig": "pipeline/.darklua_debug.json",
+            "input": "src/games/degraded/main.luau",
+            "output": "dist/degraded_debug.luau"
+        },
+        {
+            "name": "VoxelWars",
+            "frame": "pipeline/frame.luau",
+            "darkluaConfig": "pipeline/.darklua.json",
+            "input": "src/games/voxelwars/main.luau",
+            "output": "dist/voxelwars.luau"
+        },
+        {
+            "name": "TTK",
+            "frame": "pipeline/frame.luau",
+            "darkluaConfig": "pipeline/.darklua.json",
+            "input": "src/games/ttk/main.luau",
+            "output": "dist/ttk.luau"
+        },
+        {
+            "name": "GrappleSniper",
+            "frame": "pipeline/frame.luau",
+            "darkluaConfig": "pipeline/.darklua.json",
+            "input": "src/games/grapplesniper/main.luau",
+            "output": "dist/grapplesniper.luau"
+        },
+        {
+            "name": "BRM5",
+            "frame": "pipeline/frame.luau",
+            "darkluaConfig": "pipeline/.darklua.json",
+            "input": "src/games/brm5/main.luau",
+            "output": "dist/brm5.luau"
+        }
+    ]
+}

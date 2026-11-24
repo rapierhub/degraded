@@ -1,0 +1,7 @@
+{
+    "aliases": {
+        "core": "./core",
+        "modules": "./modules",
+        "routes": "./routes"
+    }
+}
